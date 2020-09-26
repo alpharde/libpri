@@ -12,7 +12,7 @@ BuildRoot: %{_tmppath}/%{name}-%{version}-root
 URL: http://www.asterisk.org
 Packager: NethServer <info@nethesis.it>
 BuildRequires: dahdi-linux-devel
-BuildRequires: libtonezone-devel
+BuildRequires: dahdi-tools-devel
 
 %description
 libpri is a C implementation of the Primary Rate ISDN (PRI) specification.  
